@@ -12,7 +12,6 @@ export default class Slide {
 
   transition(active){
     this.slide.style.transition = active ? 'transform .3s' : ''
-    console.log('oi')
   }
 
   moveSlide(distX){
